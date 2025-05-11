@@ -17,8 +17,8 @@ return new class extends Migration
             $table->string('title');
             $table->text('description');
             $table->text('long_description')->nullable();
-            $table->boolean('compleated')->default(false);
-            
+            $table->boolean('completed')->default(false);
+
             $table->timestamps();
         });
     }
